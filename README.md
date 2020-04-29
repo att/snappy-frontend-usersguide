@@ -4,7 +4,7 @@
 The Snappy Frontend is the interface through which all commands are passed into a Snappy installation.  Data is backed up, restored and can be listed via a client interacting with the frontend.
 
 <center>
-<img src="images/overview.png" width="200">
+<img src="images/overview.png" width="400">
 </center>
   
 [Installation](installation.md): Download and install
