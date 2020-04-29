@@ -4,36 +4,42 @@
 The Snappy Frontend is the interface through which all commands are passed into a Snappy installation.  Data is backed up, restored and can be listed via a client interacting with the frontend.
 
 <center>
-<img src="http://127.0.0.1:8000/images/overview.png" width="200">
+<img src="images/overview.png" width="200">
 </center>
   
-[Installation](http://127.0.0.1:8000/installation.md): Download and install
+[Installation](installation.md): Download and install
 
-[Setup](http://127.0.0.1:8000/setup.md):  Local variables, sources and targets
+[Setup](setup.md):  Local variables, sources and targets
 
 <br>
 
 **Commands**
 
-[Backup](http://127.0.0.1:8000/backup.md)
-[Restore](http://127.0.0.1:8000/restore.md)
-[List](http://127.0.0.1:8000/list.md)
-
 <table cellspacing="0" cellpadding="0">
 <tr>
 <td>Backup</td>
 <td> <p align="center">
-<img src="http://127.0.0.1:8000/images/backupcmd.png" width="194">
+<img src="images/backupcmd.png" width="194">
 </p></td>
+<td>Copy from a source to a target</td>
 </tr>
 <tr>
 <td>Restore</td>
 <td><p align="center">
-<img src="http://127.0.0.1:8000/images/restorecmd.png" width="194"></td>
+<img src="images/restorecmd.png" width="194"></td>
+<td>Copy from a target to a source</td>
 </tr>
 <tr>
 <td>List</td>
 <td><p align="center">
-<img src="http://127.0.0.1:8000/images/listcmd.png" width="75"></td>
+<img src="images/listcmd.png" width="75"></td>
+<td>View Jobs</td>
 </tr>
 </table>
+
+**Details**
+- [Backup](backup.md)
+
+- [Restore](restore.md)
+
+- [List](list.md)

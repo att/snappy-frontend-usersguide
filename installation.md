@@ -27,6 +27,7 @@ Details on these steps are in the **Setup** section
 
 
 To *start* the Frontend service: ```srv/snappyfe/bin/start [port_number]  ```
+
 To *stop* the Frontend service: ```srv/snappyfe/bin/stop```
 
 By default the Frontend will run on port 8080.  Use the *port_number* option to to change it.
