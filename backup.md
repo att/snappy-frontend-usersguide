@@ -4,7 +4,7 @@
 
 The Backup command takes data in a source and copies it to a target.  The data can be images, files, directories or anything else that has a plug-in.
 <p align="center">
-<img src="http://127.0.0.1:8000/images/backupcmd.png" width="388" height="100">
+<img src="images/backupcmd.png" width="388" height="100">
 </p>
  
 Backup ***from*** a source ***to*** a target.
