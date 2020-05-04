@@ -20,7 +20,7 @@ sudo snappyfe/bin/stop
 sudo snappyfe/bin/start [port]
 ```
 The environment variables and their definitions are as follows:
-![Snappy Frontend Environment Variables](images/env_vars.png)
+![Snappy Frontend Environment Variables](../images/env_vars.png)
 <br><br>
 ## Tables
 The Snappy Frontend uses 3 tables:  Sources, Targets and Tenants.  These tables are stored in a local sqlite database.
@@ -43,7 +43,8 @@ The following targets are currently supported:
 **Tenants**
 A tenant how to tell which target will be used.  By changing tenants, the location of a backup will also change.  Because a tenant is part of the URL of the REST command, changing the backup location is a simple as changing the tenant portion of the URL.  In the diagram below, to send that same source to a different target, only the tenant changes (underlined in orange).
 
-<img src="images/tenants_example.png" width="400">
+<img src="../
+/tenants_example.png" width="400">
 
 A tenant can also have a security component attached to it.
 
@@ -75,7 +76,7 @@ To set up a new RBD source, a name will have to be given.  The following informa
 - Ceph user key
 - Ceph pool (generially "rbd")
 
-![RBD source table](images/source_rbd.png)
+![RBD source table](../images/source_rbd.png)
 <br>
 **Target Detail:  S3**
 To set up a new S3 target, a name will have to be given.  The following information is also needed:
@@ -84,7 +85,7 @@ To set up a new S3 target, a name will have to be given.  The following informat
 -   user password
 -   Swift container name
 -   Swift project name
-![Swift target table](images/target_swift.png)
+![Swift target table](../images/target_swift.png)
 <br>
 **Target Detail:  S3**
 To set up a new S3 target source, a name will have to be given.  The following information is also needed:
@@ -94,7 +95,7 @@ To set up a new S3 target source, a name will have to be given.  The following i
 -   S3 bucket name
 -   S3 region
 
-![S3 target tables](images/target_s3.png)
+![S3 target tables](../images/target_s3.png)
 
 **Tenant Detail:**
 To set up a new S3 target source, a name will have to be given.  Because this name will be used as part of a URL, the name should be limited to alphanumeric characters.  The following information is also needed:
@@ -102,11 +103,11 @@ To set up a new S3 target source, a name will have to be given.  Because this na
 - Password (if applicable)
 - Target Name (much match one entry in the *Target* table)
 
-![Tenants tables](images/tenants.png)
+![Tenants tables](../images/tenants.png)
 <br>
 **Tables and Commands example:**
 
 The follow diagram shows how a Backup command that is submitted to the Snappy Frontend takes input from the command, references the local tables and is then sent into the Snappy Database.
-<img src="images/backupwithtables.png" width="800">
+<img src="../images/backupwithtables.png" width="800">
 
 See the commands section for more details.
