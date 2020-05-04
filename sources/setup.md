@@ -43,8 +43,7 @@ The following targets are currently supported:
 **Tenants**
 A tenant how to tell which target will be used.  By changing tenants, the location of a backup will also change.  Because a tenant is part of the URL of the REST command, changing the backup location is a simple as changing the tenant portion of the URL.  In the diagram below, to send that same source to a different target, only the tenant changes (underlined in orange).
 
-<img src="../
-/tenants_example.png" width="400">
+<img src="../images/tenants_example.png" width="400">
 
 A tenant can also have a security component attached to it.
 
