@@ -7,9 +7,9 @@ The Snappy Frontend is the interface through which all commands are passed into 
 <img src="images/overview.png" width="400">
 </center>
   
-[Installation](installation.md): Download and install
+[Installation](sources/installation.md): Download and install
 
-[Setup](setup.md):  Local variables, sources and targets
+[Setup](sources/setup.md):  Local variables, sources and targets
 
 <br>
 
@@ -38,8 +38,8 @@ The Snappy Frontend is the interface through which all commands are passed into 
 </table>
 
 **Details**
-- [Backup](backup.md)
+- [Backup](sources/backup.md)
 
-- [Restore](restore.md)
+- [Restore](sources/restore.md)
 
-- [List](list.md)
+- [List](sources/list.md)
