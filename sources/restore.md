@@ -2,7 +2,7 @@
 
 The Restore command takes data that has been stored in a target and copies it to a source.  It moves data in the reverse direction of of a Backup.
 <p align="center">
-<img src="images/restorecmd.png" width="394" height="102">
+<img src="../images/restorecmd.png" width="394" height="102">
 </p>
 
 Restore ***from*** a target ***to*** a source.
